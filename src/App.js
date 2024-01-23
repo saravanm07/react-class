@@ -1,25 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
+import Home, { Nav, Product } from './Home';
+import im from"./download.jpg";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    // <div className="App">
+    //   <header className="App-header">
+    //     <img src={logo} className="App-logo" alt="logo" />
+    //     <p>
+    //       Edit <code>src/App.js</code> and save to reload.
+    //     </p>
+    //     <a
+    //       className="App-link"
+    //       href="https://reactjs.org"
+    //       target="_blank"
+    //       rel="noopener noreferrer"
+    //     >
+    //       Learn React
+    //     </a>
+    //   </header>
+    // </div>
+
+    <div>  
+<div className="row justify-content-center">
+    {/* <img  src={im} style={{height:"200px",width:"400px", borderRadius:"100px"}}/> */}
+</div>
+  
     </div>
-  );
+  )
 }
 
 export default App;
